@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="bg-black">
+        <div
+          class="nav container d-flex justify-content-between align-items-center"
+        >
+          <h4><a class="text-white" href="index.html">Weather.com</a></h4>
+          <div class="inputs mt-2 w-50">
+            <div class="input-group mb-3">
+              <input
+                onkeyup="searchApi(this.value)"
+                type="text"
+                class="form-control"
+                placeholder="Find your location..."
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                id="button-addon2"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-5">
+        <div class="row text-white mt-5 rounded"></div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

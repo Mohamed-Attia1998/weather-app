@@ -1,0 +1,40 @@
+section {
+  background-image: url(/clear-air-fly-fantastic-travel.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* background-position: center 0px; */
+  height: 100vh;
+}
+
+.all {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.all p {
+  color: #b2c1af;
+}
+
+.row {
+  background-color: #060606f5;
+}
+.second {
+  background-color: hsla(75, 8%, 20%, 0.259);
+}
+.row .power p,
+.wind {
+  color: #b2c1af;
+}
+
+.country {
+  color: #acac2ffd;
+  font-size: 2rem;
+}
+.astro {
+  color: #acac2ffd;
+  background-color: hsla(75, 8%, 20%, 0.259);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
